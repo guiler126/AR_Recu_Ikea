@@ -9,9 +9,6 @@ public class Rotar_escalar : MonoBehaviour
 
 [SerializeField] private GameObject _gameObject;
 
-private float y_RLimit = 180f;
-
-private float s_Limit = 10f;
 
 void Start()
 {
@@ -26,12 +23,12 @@ private void Update()
 
 private void Rotate()
 {
-    _gameObject.transform.localEulerAngles = new Vector3(_sliderScale.value * y_RLimit, _gameObject.transform.localEulerAngles.y, _gameObject.transform.localEulerAngles.x);
+    _gameObject.transform.rotation = Quaternion.Euler(_gameObject.transform.localRotation.x, _sliderScale.value, _gameObject.transform.localRotation.z);
 }
 
 private void Scale()
 {
-    _gameObject.transform.localScale = new Vector3(_sliderScale.value * s_Limit, _sliderScale.value * s_Limit, _sliderScale.value * s_Limit);
+    _gameObject.transform.localScale = new Vector3(_sliderScale.value, _sliderScale.value, _sliderScale.value);
 }
 }
 
