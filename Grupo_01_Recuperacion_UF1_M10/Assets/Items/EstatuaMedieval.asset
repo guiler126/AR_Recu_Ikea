@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6947ed041afad764da50576aa21d1e92, type: 3}
+  m_Name: EstatuaMedieval
+  m_EditorClassIdentifier: 
+  ItemName: Estatua Medieval
+  ItemImage: {fileID: 21300000, guid: 48c8182f319cf5d4db31d71a32ccc1c0, type: 3}
+  ItemPrefab: {fileID: 7613391640911715222, guid: 6b3370fe8999f6446bbc60884f508336, type: 3}

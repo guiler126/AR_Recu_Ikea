@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6947ed041afad764da50576aa21d1e92, type: 3}
+  m_Name: Estand
+  m_EditorClassIdentifier: 
+  ItemName: Info Estand
+  ItemImage: {fileID: 21300000, guid: 84d6948d98ae6d947b455cabd3a9dfcd, type: 3}
+  ItemPrefab: {fileID: 3430742252633655828, guid: bffdcf82fc85083429a2bee45a723045, type: 3}

@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6947ed041afad764da50576aa21d1e92, type: 3}
+  m_Name: VitrinaMediana
+  m_EditorClassIdentifier: 
+  ItemName: Vitrina Mediana
+  ItemImage: {fileID: 21300000, guid: b92c0b93c03781840ba984f8ad6264be, type: 3}
+  ItemPrefab: {fileID: 2370508963874803158, guid: bf5f0cf255dd0c04eb286a53a30d0991, type: 3}

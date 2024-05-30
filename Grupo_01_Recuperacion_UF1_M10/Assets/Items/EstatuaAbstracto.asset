@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6947ed041afad764da50576aa21d1e92, type: 3}
+  m_Name: EstatuaAbstracto
+  m_EditorClassIdentifier: 
+  ItemName: Estatua Abstracto
+  ItemImage: {fileID: 21300000, guid: 67a4eb3c901f2504497349036b3bcffb, type: 3}
+  ItemPrefab: {fileID: 5075518682587753663, guid: 8a92700b5d286bf458d7b1a04489b00d, type: 3}
