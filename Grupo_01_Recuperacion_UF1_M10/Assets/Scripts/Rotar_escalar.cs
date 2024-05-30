@@ -26,7 +26,7 @@ private void Update()
 
 private void Rotate()
 {
-    _gameObject.transform.localEulerAngles = new Vector3(_sliderScale.value * y_RLimit, _gameObject.transform.localEulerAngles.y, _gameObject.transform.localEulerAngles.z);
+    _gameObject.transform.localEulerAngles = new Vector3(_sliderScale.value * y_RLimit, _gameObject.transform.localEulerAngles.y, _gameObject.transform.localEulerAngles.x);
 }
 
 private void Scale()
